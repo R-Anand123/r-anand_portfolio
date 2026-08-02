@@ -1,8 +1,8 @@
 const projects = [
   {
-    tag: 'HARDWARE',
+    tag: 'EMBEDDED',
     title: 'Distometer',
-    desc: 'Arduino-based device that measures the distance to an object using ultrasonic sensing, with real-time readout.',
+    desc: 'A device that measures the distance to an object using ultrasonic sensing, with real-time readout and simple onboard logic.',
     stack: ['Arduino', 'C', 'Sensors'],
   },
   {
@@ -32,22 +32,21 @@ const projects = [
   {
     tag: 'ML PIPELINE',
     title: 'Washington EV Dataset Analysis',
-    desc: 'Cleaning and preparing a statewide electric vehicle registration dataset — missing-value handling, outlier clipping, and feature encoding ahead of modeling.',
+    desc: 'Cleaning and preparing a statewide electric vehicle registration dataset, including missing-value handling, outlier clipping, and feature encoding ahead of modeling.',
     stack: ['Pandas', 'Seaborn', 'Scikit-learn'],
   },
 ]
 
 const skillGroups = [
-  { label: 'Programming', items: ['C', 'Python', 'Java (basics)'] },
-  { label: 'Hardware', items: ['Arduino', '8051'] },
+  { label: 'Programming & Tools', items: ['C', 'Python', 'Java (basics)', 'Arduino', '8051'] },
   { label: 'Applied ML', items: ['Pandas', 'Scikit-learn', 'Seaborn', 'Keras / TensorFlow'] },
   { label: 'Working on', items: ['AI/ML coursework in progress'] },
 ]
 
 const certifications = [
-  'NPTEL — Python for Data Science',
-  'Bug Bounty — Training & Certification',
-  'Social Media API Development and Integration to CRM Software — Codea Technologies',
+  'NPTEL: Python for Data Science',
+  'Bug Bounty Training & Certification',
+  'Social Media API Development and Integration to CRM Software, Codea Technologies',
   'Full Stack Web Development with AI Tools',
 ]
 
@@ -94,13 +93,13 @@ export default function App() {
             Open to IT & software roles
           </div>
           <h1>
-            R. Anand builds where <span className="accent">hardware meets software.</span>
+            R. Anand builds <span className="accent">clean, reliable software.</span>
           </h1>
           <p className="lede">
-            Final-year Computer Science student with hands-on experience across embedded
-            systems, web platforms, and applied machine learning. Currently deepening my
-            AI/ML skills through a dedicated course, and looking for an IT role where I can
-            keep building things that work end to end.
+            Final-year Computer Science student with hands-on experience across web platforms,
+            security tooling, and applied machine learning. Currently deepening my AI/ML skills
+            through a dedicated course, and looking for an IT role where I can keep building
+            things that work end to end.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary" href="/R_Anand_Resume.pdf" target="_blank" rel="noopener noreferrer">
@@ -118,19 +117,19 @@ export default function App() {
         <main className="trace">
           <section id="about">
             <TraceNode>
-              <p className="eyebrow">01 — About</p>
+              <p className="eyebrow">01 · About</p>
               <h2>A little about me</h2>
               <div className="about-grid">
                 <div>
                   <p>
-                    I'm a proactive, detail-oriented engineer in training — someone who's as
-                    comfortable soldering a sensor to an Arduino as I am debugging a Python
-                    pipeline. That range comes from genuine curiosity about how systems work,
-                    from the circuit level up to the application layer.
+                    I'm a proactive, detail-oriented engineer in training, comfortable moving
+                    between web platforms, security tooling, and applied machine learning
+                    pipelines. That range comes from genuine curiosity about how software
+                    actually works end to end.
                   </p>
                   <p>
-                    Outside coursework, I coordinate community initiatives — I've helped run
-                    blood donation drives and served as an NSS volunteer — which has sharpened
+                    Outside coursework, I coordinate community initiatives. I've helped run
+                    blood donation drives and served as an NSS volunteer, which has sharpened
                     how I lead, communicate, and manage time under pressure.
                   </p>
                 </div>
@@ -152,7 +151,7 @@ export default function App() {
 
           <section id="resume">
             <TraceNode>
-              <p className="eyebrow">02 — Résumé</p>
+              <p className="eyebrow">02 · Résumé</p>
               <h2>Certifications & achievements</h2>
               <div className="about-grid">
                 <div>
@@ -181,7 +180,7 @@ export default function App() {
 
           <section id="projects">
             <TraceNode>
-              <p className="eyebrow">03 — Projects</p>
+              <p className="eyebrow">03 · Projects</p>
               <h2>Things I've built</h2>
               <div className="project-grid">
                 {projects.map((p) => (
@@ -202,7 +201,7 @@ export default function App() {
 
           <section id="skills">
             <TraceNode>
-              <p className="eyebrow">04 — Skills</p>
+              <p className="eyebrow">04 · Skills</p>
               <h2>What I work with</h2>
               <div className="skills-grid">
                 {skillGroups.map((g) => (
@@ -221,11 +220,11 @@ export default function App() {
 
           <section id="contact">
             <TraceNode>
-              <p className="eyebrow">05 — Contact</p>
+              <p className="eyebrow">05 · Contact</p>
               <div className="contact-card">
                 <div>
                   <h2>Let's talk</h2>
-                  <p>Open to IT and software roles — happy to share more about any project above or walk through my résumé.</p>
+                  <p>Open to IT and software roles. Happy to share more about any project above or walk through my résumé.</p>
                 </div>
                 <div className="contact-links">
                   <a href="mailto:ranand2623@gmail.com"><span className="sq" />ranand2623@gmail.com</a>
@@ -239,7 +238,7 @@ export default function App() {
         </main>
 
         <footer>
-          © {new Date().getFullYear()} R. Anand — built with React
+          © {new Date().getFullYear()} R. Anand · built with React
         </footer>
       </div>
     </>
