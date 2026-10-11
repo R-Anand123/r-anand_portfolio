@@ -237,10 +237,7 @@ export default function App() {
             R. Anand builds <span className="accent">clean, reliable software.</span>
           </h1>
           <p className="lede">
-            Final-year Computer Science student with hands-on experience across web platforms,
-            security tooling, and applied machine learning. Currently deepening my AI/ML skills
-            through a dedicated course, and looking for an IT role where I can keep building
-            things that work end to end.
+            B.Tech Computer Science graduate and certified AI/ML specialist with hands-on experience across web platforms, security tooling, and applied machine learning. Looking for an IT role where I can keep building things that work end to end.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary" href="/R_Anand_Resume.pdf" target="_blank" rel="noopener noreferrer">
