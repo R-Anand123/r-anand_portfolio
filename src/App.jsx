@@ -7,6 +7,15 @@ const NAV_LABELS = { achievements: 'Achievements' }
 
 const projects = [
   {
+    id: 'triplens',
+    category: 'ml',
+    tag: 'AI / ML',
+    title: 'TripLens',
+    desc: 'An AI/ML travel package intelligence platform that helps travelers compare complete holiday packages beyond price and ratings, with preference-aware ranking and true-cost estimation.',
+    detail: 'Combines LLM-based preference extraction from natural language, a hybrid ranking engine (semantic embeddings plus feature-based scoring), effective-cost estimation from inclusions versus disclosed extras, itinerary intensity analysis, and review sentiment analysis.',
+    stack: ['Python', 'NLP', 'LLMs', 'ML'],
+  },
+  {
     id: 'distometer',
     category: 'embedded',
     tag: 'Embedded',
